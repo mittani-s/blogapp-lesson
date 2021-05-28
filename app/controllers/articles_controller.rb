@@ -7,4 +7,8 @@ class ArticlesController < ApplicationController
     # :idはrails/infoにあるpathにある:idのこと
     @article = Article.find(params[:id])
   end
+
+  def new
+    
+  end
 end
